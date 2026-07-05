@@ -1,5 +1,7 @@
 # 🚗 아그네스 · 차량 관리 웹서비스
 
+**🌐 라이브: https://benjamin-swan.github.io/agnes-car/**
+
 2018 기아 스포티지 2.0 디젤(애칭 **아그네스**) 단 한 대를 위한 개인 차량 정비·관리 노트.
 정비 이력 기록, 소모품 교체 시기 예측, 주유·세차·부품 기록, 지출·연비 통계를 한 화면에서 관리합니다.
 
@@ -28,19 +30,17 @@ python3 -m http.server 8765
 ```
 > ES Module을 쓰므로 `file://` 직접 열기가 아닌 로컬 서버로 열어야 합니다.
 
-## 🚀 GitHub Pages 배포
-1. GitHub에 새 저장소 생성 (예: `agnes-car`)
-2. 이 폴더를 push:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: 아그네스 차량 관리 앱"
-   git branch -M main
-   git remote add origin https://github.com/<USERNAME>/agnes-car.git
-   git push -u origin main
-   ```
-3. GitHub 저장소 → **Settings → Pages** → Source: `main` 브랜치 `/ (root)` → Save
-4. 잠시 후 `https://<USERNAME>.github.io/agnes-car/` 로 접속
+## 🚀 배포 (완료됨)
+- 저장소: https://github.com/Benjamin-swan/agnes-car
+- 배포: **GitHub Actions**로 정적 배포(`.github/workflows/pages.yml`). `main`에 push하면 자동 재배포됩니다.
+- 라이브 주소: https://benjamin-swan.github.io/agnes-car/
+
+> 참고: 처음엔 레거시 Jekyll 빌더가 `source_materials`의 한글 파일명 `.md`를 처리하다 실패해서, Jekyll을 거치지 않는 Actions 정적 배포로 전환했습니다.
+
+수정 후 재배포:
+```bash
+git add . && git commit -m "update" && git push
+```
 
 ## 💾 데이터 보관 안내
 모든 기록은 **접속한 브라우저에만** 저장됩니다. 기기·브라우저를 바꾸거나 캐시를 지우면 사라지므로,
