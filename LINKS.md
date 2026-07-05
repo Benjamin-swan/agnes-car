@@ -31,6 +31,11 @@ python3 -m http.server 8765
 | 스포티지 2018 사용설명서 | https://ownersmanual.kia.com/manual/%EC%8A%A4%ED%8F%AC%ED%8B%B0%EC%A7%80?projCode=QL&year=2018&langCode=ko_KR&countryCode=A99&content=ownersmanual |
 | 경고등 · 심볼 안내 | https://ownersmanual.kia.com/manual/%EC%8A%A4%ED%8F%AC%ED%8B%B0%EC%A7%80?projCode=QL&year=2018&langCode=ko_KR&countryCode=A99&content=warninglights |
 
+## 💾 데이터 백업
+- 백업 파일 보관 폴더 + 사용설명서: [`backups/백업-사용법.md`](backups/백업-사용법.md)
+- 앱에서 `설정 → 데이터 백업 → JSON으로 내보내기` 한 파일을 `backups/` 폴더에 보관하세요.
+- 개인정보 보호: `backups/*.json`은 공개 저장소에 올라가지 않도록 막혀 있어 내 컴퓨터에만 남습니다.
+
 ## 🚀 수정 후 재배포
 `main` 브랜치에 push하면 GitHub Actions가 자동으로 다시 배포합니다.
 ```bash

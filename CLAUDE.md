@@ -37,6 +37,7 @@
 ├── docs/                   # 기획 문서
 │   ├── PRD.md              #   제품 요구사항 정의서
 │   └── PLAN.md             #   작업 기획/진행 현황
+├── backups/                # 데이터 백업 JSON 보관함 + 사용설명서 (*.json은 git 제외)
 ├── source_materials/       # 원본 자료(정비 이력·주기표·사용설명서 PDF)
 ├── .github/workflows/      # GitHub Actions (Pages 자동 배포)
 ├── DESIGN.md               # 디자인 시스템 (Single Source of Truth)
