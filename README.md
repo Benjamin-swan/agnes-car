@@ -14,9 +14,11 @@
 - **설정**: 차량 프로필·교체 주기 커스텀 편집, **JSON 백업 내보내기/가져오기**
 - 모바일 우선 · PWA(홈 화면 추가) 지원
 
-## 🎨 디자인 / 규칙
+## 🎨 디자인 / 규칙 / 문서
+- 접속 링크 모음: [`LINKS.md`](LINKS.md)
 - 디자인 시스템: [`DESIGN.md`](DESIGN.md) (클린 미니멀 라이트 · 딥그린 #1B6B4C)
-- 작업 규칙: [`CLAUDE.md`](CLAUDE.md) · 기획/진행: [`PLAN.md`](PLAN.md)
+- 작업 규칙: [`CLAUDE.md`](CLAUDE.md)
+- 기획 문서: [`docs/PRD.md`](docs/PRD.md) · [`docs/PLAN.md`](docs/PLAN.md)
 - 원본 자료: [`source_materials/`](source_materials) (정비 이력·주기표·사용설명서)
 
 ## 🛠 기술

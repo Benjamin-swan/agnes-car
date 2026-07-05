@@ -1,7 +1,7 @@
 # PLAN.md — 작업 기획 및 진행 현황
 
 ## 목표
-PRD(`agnes_car_management_PRD.md`) 기반, 아그네스 1대 전용 차량 관리 웹서비스를 프론트엔드로 완성하고 GitHub Pages에 배포한다.
+PRD(`PRD.md`, 같은 폴더) 기반, 아그네스 1대 전용 차량 관리 웹서비스를 프론트엔드로 완성하고 GitHub Pages에 배포한다.
 
 ## 확정 결정 사항
 - 디자인: **클린 미니멀 라이트 / 딥그린(#1B6B4C)** (→ DESIGN.md)

@@ -19,6 +19,7 @@
 ```
 /
 ├── index.html              # 앱 진입점 (SPA 쉘)
+├── manifest.webmanifest    # PWA 매니페스트
 ├── css/
 │   └── styles.css          # 전체 스타일 (디자인 토큰 = CSS 변수)
 ├── js/
@@ -33,9 +34,13 @@
 │       ├── history.js      # 통합 이력 조회
 │       └── settings.js     # 주기/환경 설정 + 백업
 ├── assets/                 # 아이콘, 파비콘
-├── source_materials/       # 원본 자료(PRD 근거 데이터, 사용설명서 PDF 등)
+├── docs/                   # 기획 문서
+│   ├── PRD.md              #   제품 요구사항 정의서
+│   └── PLAN.md             #   작업 기획/진행 현황
+├── source_materials/       # 원본 자료(정비 이력·주기표·사용설명서 PDF)
+├── .github/workflows/      # GitHub Actions (Pages 자동 배포)
 ├── DESIGN.md               # 디자인 시스템 (Single Source of Truth)
-├── PLAN.md                 # 작업 기획/진행 현황
+├── LINKS.md                # 접속 링크 모음 (로컬/배포/저장소)
 ├── CLAUDE.md               # (이 문서) 작업 규칙
 └── README.md
 ```
