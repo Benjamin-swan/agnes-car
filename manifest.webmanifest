@@ -1,0 +1,15 @@
+{
+  "name": "아그네스 차량 관리",
+  "short_name": "아그네스",
+  "description": "2018 기아 스포티지 디젤 '아그네스' 전용 정비·관리 노트",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F8FA",
+  "theme_color": "#1B6B4C",
+  "lang": "ko",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
